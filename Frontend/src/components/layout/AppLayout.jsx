@@ -39,7 +39,7 @@ const AppLayout = () => (WrappedComponent) => {
     const socket = getSocket();
 
     const chatId = params.chatId;
-    const deleteMenuAnchor = useRef(null);
+    const deleteMenuAnchor = useRef(null); 
 
     const [onlineUsers, setOnlineUsers] = useState([]);
 

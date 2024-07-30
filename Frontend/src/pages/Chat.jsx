@@ -259,5 +259,5 @@ const Chat = ({ chatId, user }) => {
     </Fragment>
   );
 };
-
+ 
 export default AppLayout()(Chat);
